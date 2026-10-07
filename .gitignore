@@ -1,0 +1,9 @@
+Backend/target/
+Backend/.mvn/wrapper/maven-wrapper.jar
+Frontend/.gradle/
+Frontend/build/
+Frontend/app/build/
+Frontend/local.properties
+**/.idea/
+**/*.iml
+.DS_Store
