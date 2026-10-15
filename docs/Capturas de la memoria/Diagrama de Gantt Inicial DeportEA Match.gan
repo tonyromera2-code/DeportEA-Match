@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Proyecto Fin de Ciclo DeporEA Match" company="" webLink="http://" view-date="2026-09-21" view-index="0" gantt-divider-location="470" resource-divider-location="300" version="3.3.3316" locale="es_ES">
+    <description><![CDATA[Proyecto Fin de Ciclo DeporEA Match]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="293" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="92" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="84" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[1]]></timeline>
+        <option id="color.recent"><![CDATA[#ffff66 #ff0000 #66ff33 #3333ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="es">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="1" wed="1" thu="1" fri="1" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="1" date="6" type="HOLIDAY"><![CDATA[Epiphany]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labour Day]]></date>
+        <date year="" month="8" date="15" type="HOLIDAY"><![CDATA[Assumption Day]]></date>
+        <date year="" month="10" date="12" type="HOLIDAY"><![CDATA[Hispanic Day]]></date>
+        <date year="" month="11" date="1" type="HOLIDAY"><![CDATA[All Saints Day]]></date>
+        <date year="" month="12" date="6" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="" month="12" date="8" type="HOLIDAY"><![CDATA[Immaculate Conception Day]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas Day]]></date>
+        <date year="2025" month="4" date="17" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2025" month="4" date="18" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2016" month="3" date="24" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2016" month="3" date="25" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2017" month="1" date="2" type="HOLIDAY"><![CDATA[New Year's Holiday]]></date>
+        <date year="2017" month="4" date="13" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2017" month="4" date="14" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2018" month="3" date="29" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2018" month="3" date="30" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2019" month="4" date="18" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2019" month="4" date="19" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2020" month="4" date="9" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2020" month="4" date="10" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2020" month="11" date="2" type="HOLIDAY"><![CDATA[All Saints Day (in lieu)]]></date>
+        <date year="2020" month="12" date="7" type="HOLIDAY"><![CDATA[Constitution Day (in lieu)]]></date>
+        <date year="2021" month="4" date="1" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2021" month="4" date="2" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2022" month="4" date="14" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2022" month="4" date="15" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="57d21d356bf04b8d8bb376ce2b6451b7" name="Fase de Análisis y Documentación" color="#3333ff" meeting="false" start="2026-09-30" duration="15" complete="50" expand="true">
+            <notes><![CDATA[Creación de la idea
+Propuesta de tema
+Documentación (Memoria: 
+Introducción
+Estado del Arte
+Metodología
+Tecnologías
+Planificación
+Análisis)]]></notes>
+        </task>
+        <task id="2" uid="8bbb5a5069434059aa1dd0c3114194f6" name="Diseño de BBDD e Interfaces" meeting="false" start="2026-10-15" duration="10" complete="0" expand="true">
+            <notes><![CDATA[Elaboracion de diagramas UML
+DIseño lógico entidad relación
+diseño fisico de la gase de datos my SQL]]></notes>
+        </task>
+        <task id="3" uid="c431e9602c6f444ea0fed1d33570d936" name="Desarrollo del backend (Spring Boot)" color="#66ff33" meeting="false" start="2026-10-24" duration="18" complete="0" expand="true">
+            <notes><![CDATA[programacion del servidor con spring boot y java
+configuración de la seguridad
+desarrollo de la api rest
+mapeo de la persistencia de datos con hibernate]]></notes>
+        </task>
+        <task id="4" uid="d140db7bea864150ab57cdb78ff2cbbb" name="Desarrollo del Frontend (Jetpack Compose)" color="#ff0000" meeting="false" start="2026-11-03" duration="18" complete="0" expand="true">
+            <notes><![CDATA[creacion de las interfaces con jerpack compose en kotlinç
+]]></notes>
+        </task>
+        <task id="5" uid="dfe896de68a5434c95d6cdd711863e06" name="Fase de Pruebas y Memoria Final" color="#ffff66" meeting="false" start="2026-11-20" duration="14" complete="0" expand="true">
+            <notes><![CDATA[Ejecucion de pruebas de caja negra
+ejecucion de pruebas unitarias de caja blanca
+corrección de errores
+empaquetado final
+grabación del video de defensa]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
